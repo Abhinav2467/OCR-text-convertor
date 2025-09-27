@@ -20,7 +20,7 @@ A JavaFX desktop application that converts images of handwritten or printed text
     * Grayscale Conversion
     * Binarization (Thresholding)
     * Noise Removal
-* **Multi-Language Support**: Can recognize text in multiple languages (e.g., English, Hindi, Malyalam, more can be enabled with minimal change to a part of code).
+* **Multi-Language Support**: Can recognize text in multiple languages (e.g., English, Hindi, Malayalam, more can be enabled with minimal change to a part of code).
 * **User-Friendly Interface**: A simple and intuitive GUI built with JavaFX.
 * **Real-time Output**: Displays the converted text directly in the application.
 
@@ -34,15 +34,46 @@ Accuracy can vary depending on the quality of the source image and the complexit
 
 ## Demonstration
 
-The application is capable of taking a complex image with handwritten text and converting it into a digital format. Here is an example of the conversion flow.
+The application is capable of converting various types of images. Here are a few examples:
 
-### **Before Conversion**
+### Example 1: Handwritten English
 This is the original input image containing handwritten notes.
+
+**Before Conversion:**
 ![Handwritten Notes Before OCR](handwritting-before.png)
 
-### **After Conversion**
-The application processes the image and outputs the recognized text, which is now digital and editable.
-![Converted Text After OCR](handwritting-detection-output.png)
+**After Conversion:**
+![Converted Text After OCR](handwriting-output.png)
+
+---
+### Example 2: Printed Bill
+The application can also extract text from printed documents like receipts or bills.
+
+**Before Conversion:**
+![Printed Bill Before OCR](primary.png)
+
+**After Conversion:**
+![Printed Bill After OCR](printed-bill-after.png)
+
+---
+### Example 3: Handwritten Hindi
+Support for non-English languages, such as Hindi, is also included.
+
+**Before Conversion:**
+![Hindi Handwriting Before OCR](hindi-before.png)
+
+**After Conversion:**
+![Hindi Handwriting After OCR](hindi-output.png)
+
+---
+### Example 4: Handwritten Malayalam
+The model can also process regional scripts like Malayalam.
+
+**Before Conversion:**
+![Malayalam Handwriting Before OCR](malyalam-before.png)
+
+**After Conversion:**
+![Malayalam Handwriting After OCR](malyalam-after.png)
 
 ## How It Works
 
