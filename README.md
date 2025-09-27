@@ -38,11 +38,11 @@ The application is capable of taking a complex image with handwritten text and c
 
 ### **Before Conversion**
 This is the original input image containing handwritten notes.
-![Handwritten Notes Before OCR](handwritting before.png)
+![Handwritten Notes Before OCR](handwritting-before.png)
 
 ### **After Conversion**
 The application processes the image and outputs the recognized text, which is now digital and editable.
-![Converted Text After OCR](handwritting detection output.png)
+![Converted Text After OCR](handwritting-detection-output.png)
 
 ## How It Works
 
