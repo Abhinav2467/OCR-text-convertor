@@ -1,0 +1,15 @@
+# Compiled class files
+/bin/
+
+# Eclipse project settings
+.settings/
+
+# Dependencies - Do NOT commit these!
+/jre/
+/opencv/
+
+# Large data files
+/tessdata/
+
+# Log files
+*.log

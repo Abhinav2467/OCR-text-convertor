@@ -1,0 +1,107 @@
+/* General App Style  */
+.root {
+    -fx-background-color: #f0f8ff; /* Alice Blue - very light blue */
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Dark gray */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+    -fx-cursor: pointer; /* Hand cursor on hover */
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(three-pixel, rgba(0,0,0,0.2)); /* Subtle shadow */
+    -fx-transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green */
+    -fx-transform: scale(1.03); /* Slight scale on hover for feedback */
+}
+
+.button:pressed {
+    -fx-background-color: #388E3C;  /* Even darker green when pressed */
+    -fx-transform: scale(1);       /* Reset scale when pressed */
+    -fx-effect: null;          /* Remove shadow when pressed*/
+}
+
+.text-area {
+    -fx-font-size: 12px;
+    -fx-padding: 10px;
+    -fx-border-color: #cccccc; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-control-inner-background: #ffffff;  /* white background */
+    -fx-text-fill: #222222;
+    -fx-highlight-fill: #b0e0e6; /* PowderBlue for selected text */
+    -fx-highlight-text-fill: #000000;
+}
+
+.text-area:focused {
+        -fx-border-color: #42a5f5;  /* Blue border when focused */
+    -fx-shadow-inner: null;
+}
+
+.scroll-pane {
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 5px;
+    -fx-background-color: transparent; /* Make sure the scrollpane is transparent */
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;  /* Make the viewport of the scrollpane transparent */
+}
+
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 6px;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #b0e0e6;  /* Light blue hover on items */
+    -fx-text-fill: #000000;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+}
+
+.path-label{
+   -fx-font-size: 12px;
+   -fx-text-fill: #006400; /* Dark Green */
+   -fx-font-style: italic;
+}
+
+.convert-button{
+    -fx-background-color: #008B8B; /* Dark Cyan */
+}
+.convert-button:hover{
+     -fx-background-color: #008080; /* Darker Cyan */
+}
+
+.progress-bar > .bar {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-border-radius: 5px;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #e0e0e0; /* Light gray */
+    -fx-border-radius: 5px;
+}
+
